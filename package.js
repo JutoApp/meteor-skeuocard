@@ -1,6 +1,6 @@
 Package.describe({
   name: 'juto:skeuocard',
-  version: '1.0.0',
+  version: '1.0.1',
   // Brief, one-line summary of the package.
   summary: 'skeuomorphic credit card forms.',
   // URL to the Git repository containing the source code for this package.
@@ -17,11 +17,9 @@ Package.onUse(function(api) {
   api.use('ecmascript');
   api.use(['fourseven:scss@3.8.0_1'],['client']);
   api.addFiles([
-    "styles/demo.scss",
     "styles/skeuocard.reset.scss",
     "styles/skeuocard.scss",
     "javascripts/vendor/cssua.min.js",
-    "javascripts/vendor/demo.fix.js",
     "javascripts/skeuocard.js"
   ],['client']);
   api.addAssets([
